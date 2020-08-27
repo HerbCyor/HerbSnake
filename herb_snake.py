@@ -83,7 +83,7 @@ pygame.display.set_caption("Herb's Snake")
 main_screen = pygame.display.set_mode([300,400])
 
 def text_render(text, screen,size,pos):
-    #custom function to facilitade text rendering. totally unnecessary
+    #custom function to facilitate text rendering.
     pygame.font.init()
     fnt = pygame.font.SysFont("Comic Sans",size)
     text_render = fnt.render(text,1,(255,255,255))
